@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" tab="1">
+<head>
+    <meta charset="UTF-8">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="/lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/iconfont/iconfont.css">
+    <link rel="stylesheet" href="/css/user.css">
+</head>
+<table class="tableData">
+    <!--<h3>搜索</h3>-->
+    <div class="search-bar">
+        <input placeholder="根据用户名查询" id="name" type="text">
+        <button onclick="search()">搜索</button>
+    </div>
+    <thead>
+    <tr>
+        <td>id</td><td>用户名</td><td>密码</td><td>电话号码</td><td>用户类型</td><td>role</td>
+    </tr>
+    </thead>
+    <!--<h3>页面跳转</h3>-->
+    <div class="page-bar">
+        <input id="page" type="text" value="1">
+        <button onclick="getData()">跳转</button>
+    </div>
+</table>
